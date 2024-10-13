@@ -121,7 +121,7 @@ function resetTicketLoadBar() {
 
 function updateTicketLoadBar(deltaTime) {
 	// Set expiration time and start width
-	let expirationTime = 60;	// In seconds
+	let expirationTime = 7800;	// In seconds - 130 minutes
 	let startWidth = 97;
 	let loadBar = $("#ticket-load-bar");
 	// Make the loadBar width go from its current width to 0 in expirationTime seconds
